@@ -416,6 +416,8 @@ main.sign-up-mode .carousel {
 .social-icon:hover {
   color: #4481eb;
   border-color: #4481eb;
+  Cursor:text !important;
+  Text-Decoration: None !important;
 }
 
 .btn {
