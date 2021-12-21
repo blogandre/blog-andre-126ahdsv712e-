@@ -109,7 +109,7 @@ function ShowToastTwo() {
     sToast.setAttribute('style', 'visibility:visible; animation:animation_toast 5s linear 1;');
 
     var mToast = document.getElementById('toast_message');
-    mToast.innerHTML = "Tampilan Ini Segera Hadir";
+    mToast.innerHTML = "Halaman Ini Belum Tersedia";
 
     setTimeout(HideToast, 5000);
 }
