@@ -1,15 +1,14 @@
 // Your web app's Firebase configuration ENTER YOUR FIREBASE DETAILS HERE
 
 var firebaseConfig = {
-
-    apiKey: "AIzaSyBdNz6lLVkSCnNroDw-CCTmiZuOistyOPk",
-    authDomain: "blog-andre-id.firebaseapp.com",
-    databaseURL: "https://blog-andre-id-default-rtdb.firebaseio.com",
-    projectId: "blog-andre-id",
-    storageBucket: "blog-andre-id.appspot.com",
-    messagingSenderId: "521308543059",
-    appId: "1:521308543059:web:d2c8eb6cbe5011966b0ea6",
-    measurementId: "G-KZVJB7W181",
+    apiKey: "AIzaSyDI7QMe0VaA8fZkq12abBhyxkFCGSTCxaE",
+    authDomain: "blogandre-id.firebaseapp.com",
+    databaseURL: "https://blogandre-id-default-rtdb.firebaseio.com",
+    projectId: "blogandre-id",
+    storageBucket: "blogandre-id.appspot.com",
+    messagingSenderId: "807458840141",
+    appId: "1:807458840141:web:5d8f62ab1ac2ad781ac604",
+    measurementId: "G-YSM5L1QHSN",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
