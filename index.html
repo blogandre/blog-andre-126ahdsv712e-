@@ -543,6 +543,14 @@
 	<script src="assets/js/lightbox.js"></script>
     <script src="assets/js/app.js"></script> 
 
+	<script>
+		function onDeviceReady() {
+			document.addEventListener("offline", function() {
+				alert("No Internet Conection");
+			}, false)
+		}
+	</script>
+
 </body>
 </html> 
 
