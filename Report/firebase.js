@@ -24,10 +24,11 @@ var config = {
     // Get values
     var name = getInputVal('name');
     var email = getInputVal('email');
+    var desain = getInputVal('desain');
     var message = getInputVal('message');
   
     // Save message
-    saveMessage(name, email, message);
+    saveMessage(name, email, desain, message);
   
     // Show alert
     document.querySelector('.alert').style.display = 'block';
@@ -47,11 +48,12 @@ var config = {
   }
   
   // Save message to firebase
-  function saveMessage(name, email, message){
+  function saveMessage(name, email, desain, message){
     var newMessageRef = messagesRef.push();
     newMessageRef.set({
       name: name,
       email:email,
+      desain: desain,
       message:message
     });
   }
