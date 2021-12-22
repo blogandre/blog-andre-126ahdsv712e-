@@ -546,7 +546,6 @@
 	<script>
 		window.onload = () => {
   if(navigator.onLine) {
-    document.body.innerText = "Online";
     document.body.classList.add('online');
   }
   window.onoffline = () => {
@@ -555,7 +554,6 @@
     document.body.classList.add('offline');
   }
   window.ononline = () => {
-    document.body.innerText = "Online";
     document.body.classList.add('online');
     document.body.classList.remove('offline');
   }
