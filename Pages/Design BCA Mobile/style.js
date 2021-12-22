@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbx2FvXwoIxagnhNdqZlp8oBiV3RtL144F-4OIN2AHO8vYk-Yy6SnvPETFHh05iXllNr/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbw3FzCOQpED8YivZ6ik_8Y5hSlthfJssCO4zC3aUI2Av_9OwvV2ORPZmmGUkzrja1QY/exec'
 const form = document.forms['Design-1']
 
     const btnKirim = document.querySelector('.btn-kirim');
