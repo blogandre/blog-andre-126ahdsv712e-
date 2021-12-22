@@ -39,6 +39,9 @@ var myDate = new Date();
             document.getElementById("email").innerHTML = `
                ${user.email}
             `;
+            document.getElementById("phone").innerHTML = `
+               ${user.emailVerified}
+            `;
           document.getElementById("username-link").innerHTML = `${user.uid}
             `;
             const linkUsername = document.getElementById("username-link");
