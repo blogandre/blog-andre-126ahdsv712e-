@@ -544,11 +544,21 @@
     <script src="assets/js/app.js"></script> 
 
 	<script>
-		function onDeviceReady() {
-			document.addEventListener("offline", function() {
-				alert("No Internet Conection");
-			}, false)
-		}
+		window.onload = () => {
+  if(navigator.onLine) {
+
+    document.body.classList.add('online');
+  }
+  window.onoffline = () => {
+    document.body.innerText = "Offline";
+    document.body.classList.remove('online');
+    document.body.classList.add('offline');
+  }
+
+    document.body.classList.add('online');
+    document.body.classList.remove('offline');
+  }
+}
 	</script>
 
 </body>
