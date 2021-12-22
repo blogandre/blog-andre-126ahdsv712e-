@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stack Image | Report</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>Send Report</header>
+    <form id="contactForm">
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="name" id="name" placeholder="Enter your name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="email" name="email" id="email" placeholder="Enter your email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+      </div>
+      <!--Ngakapakai--
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="phone" placeholder="Enter your phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="website" placeholder="Enter your website">
+          <i class='fas fa-globe'></i>
+        </div>
+      </div>
+      <!--Ngakapakai-->
+      <div class="message">
+        <textarea placeholder="Write your message" name="message" id="message" required></textarea>
+        <i class="material-icons">message</i>
+      </div>
+      <div class="button-area">
+        <button type="submit">Send Message</button>
+        <span></span>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="script.js"></script>
+  <script src="firebase.js"></script>
+
+
+</body>
+</html>
