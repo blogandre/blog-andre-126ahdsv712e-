@@ -127,5 +127,16 @@
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
     <script src="assets/js/login-2.js"></script>
     <script src="assets/js/login.js"></script>
+
+    <script>
+      var online = navigator.onLine;
+  
+      if (online == false) {
+  
+        alert("Tidak Ada Internet.");
+        location.reload();
+  
+      }
+    </script>
   </body>
 </html>

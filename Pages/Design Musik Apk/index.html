@@ -124,5 +124,16 @@
 
   <!--JS-->
   <script src="style.js"></script> 
+
+  <script>
+		var online = navigator.onLine;
+
+		if (online == false) {
+
+			alert("Tidak Ada Internet.");
+			location.reload();
+
+		}
+	</script>
 </body>
 </html>

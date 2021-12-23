@@ -458,6 +458,17 @@
     <script src="assets/js/app.js"></script> 
 	<script src="assets/js/firebase-account.js"></script> 
 
+	<script>
+		var online = navigator.onLine;
+
+		if (online == false) {
+
+			alert("Tidak Ada Internet.");
+			location.reload();
+
+		}
+	</script>
+
 </body>
 </html> 
 
